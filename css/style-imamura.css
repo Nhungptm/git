@@ -1,0 +1,1176 @@
+@charset "utf-8";
+
+/*common*/
+
+.red {
+  color: #cf000f;
+}
+
+.small {
+  font-size: .7rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bk-gray {
+  background: #f8f9f9;
+}
+
+.pickup-taxi-ttl {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+/*slider*/
+
+.pickup-taxi-content-in {
+  padding: 40px 0;
+}
+
+.pickup-taxi-content-in p.red {
+  margin-top: 20px;
+}
+
+.pickup-taxi-plan-ttl{
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #5990b6;
+}
+
+.summary-image-area {
+  float: left;
+  width: 660px;
+}
+
+.summary-slider li {
+  width: 100%;
+  height: 510px;
+}
+
+.summary-slider-thumb {
+  margin: 20px 0 0 -20px;
+}
+
+.summary-slider-thumb .slick-list {
+  height: 115px !important;
+  padding: 0 !important;
+}
+
+.summary-slider-thumb li {
+  width: 150px !important;
+  height: 115px !important;
+  margin-left: 20px;
+  background-position:center top;
+  background-repeat:no-repeat;
+  -moz-background-size:cover;
+  background-size:cover;
+}
+
+.summary-image-area p {
+  margin: 10px 0 0;
+  text-align: right;
+}
+
+/*txt*/
+
+.summary-txt-area {
+  float: left;
+  width: 660px;
+  margin-left: 40px;
+}
+
+.summary-txt-area .plan-desc {
+  margin: 20px 0 40px;
+}
+
+.summary-txt-area table {
+  width: 100%;
+  border-top: solid 1px #ccc;
+  margin-bottom: 40px;
+}
+
+.summary-txt-area table tr {
+  border-bottom: solid 1px #ccc;
+}
+
+.summary-txt-area table th {
+  width: 30%;
+  padding: 20px 0;
+}
+
+.summary-txt-area table td {
+  padding: 20px 0;
+}
+
+.summary-txt-area table span.red {
+  line-height: 1.2;
+  display: block;
+}
+
+.calendar-check-btn a {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 5px;
+  background: #5990b6;
+  text-align: center;
+  color: #fff;
+}
+
+/*point*/
+
+.pickup-taxi-point {
+  margin: 40px 0;
+}
+
+.point-ttl-area {
+  float: left;
+  width: 310px;
+  padding: 20px;
+  border: solid 1px #333;
+  text-align: center;
+}
+
+.point-ttl-area h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.point-ttl-area hr {
+  margin: 10px 0 20px;
+}
+
+.point-txt-area {
+  float: left;
+  width: 1010px;
+  margin-left: 40px;
+}
+
+.point-txt-area-caut {
+  margin-top: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.point-txt-area.tour-bus-point p {
+  margin-top: 20px;
+}
+
+.point-txt-area.tour-bus-point p:first-child {
+  margin: 0;
+}
+
+
+.point-ttl-area img {
+    margin: 0 auto;
+}
+
+/*table*/
+
+.table-type01 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-type01 th {
+  width: 25%;
+  padding: 5px 0;
+  border: solid 1px #ccc;
+  background: #dfdfdf;
+  text-align: center;
+}
+
+.table-type01 td {
+  width: 25%;
+  padding: 10px 0;
+  border: solid 1px #ccc;
+  text-align: center;
+}
+
+/*calendar*/
+
+/*----search---*/
+
+.calendar-search-area {
+  background: #e4edf0;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.calendar-search-wrap {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.calendar-search-box {
+  display: table-cell;
+  padding: 0 3%;
+  border-right: solid 1px #fff;
+  vertical-align: middle;
+}
+
+.calendar-search-box  select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  border: none;
+  cursor: pointer;
+  background: url(../images/common/icon-select.png) no-repeat 90% center/ 15px 10px ,#fff ;
+}
+
+.calendar-search-box-people dl dd dl {
+  float:left;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.calendar-search-box-people dl dd dl dt {
+  float: left;
+  min-width: 30%;
+}
+
+.calendar-search-box-people dl dd dl dd select {
+  float: left;
+  width: 40%;
+}
+
+.calendar-search-box-people dl dd dl dd span {
+  margin-left: 5px;
+}
+
+.calendar-search-box-date dl {
+  width: 100%;
+}
+
+.calendar-search-box-date dl ol {
+  margin-top: 10px;
+}
+
+.calendar-search-box-date dl ol li {
+  float: left;
+  width: 33%;
+}
+
+.calendar-search-box-date dl ol li select {
+  width: 65%;
+}
+
+.calendar-search-box-date dl ol li span {
+  margin-left: 5px;
+}
+
+.search-calendar-submit {
+  width: 100%;
+}
+
+.search-calendar-submit {
+  position: relative;
+  display: inline-block;
+}
+
+.search-calendar-submit input {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+}
+
+.search-calendar-submit p {
+  vertical-align: middle;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background: #6c7a89;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.search-calendar-submit:hover p {
+  background: #354d67;
+  transition: all .3s;
+}
+
+/*----detail---*/
+
+.calendar-detail-area {
+  background: #e4edf0;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.calendar-detail-wrap-in {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.calendar-detail-box {
+  display: table-cell;
+  padding: 0 3%;
+  border-right: solid 1px #fff;
+  vertical-align: top;
+}
+
+.calendar-detail-box  select {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  border: none;
+  cursor: pointer;
+  background: url(../images/common/icon-select.png) no-repeat 95% center/ 15px 10px ,#fff ;
+}
+
+.calendar-detail-time dd,
+.calendar-detail-place dd,
+.calendar-detail-option dd,
+.calendar-detail-price dd {
+  margin-top: 10px;
+}
+
+.calendar-detail-time select {
+  width: 25%;
+  margin-left: 10px;
+}
+
+.calendar-detail-place {
+  margin-top: 20px;
+}
+
+.calendar-detail-place input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: none;
+}
+
+.calendar-detail-option li {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: table;
+  border-bottom: 2px dashed #fff;
+}
+
+.calendar-detail-option li:last-child {
+  border-bottom: none;
+}
+
+.option-select-wrap {
+  width: 110px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.option-select-in {
+  float: right;
+  
+}
+
+.option-select-in::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.option-select-in p {
+  text-align: right;
+}
+
+.option-select-in p:first-child {
+  display: inline-block;
+  text-align: left;
+}
+
+.calendar-detail-box select.option-select {
+  width: 70px;
+}
+
+.option-caption {
+  padding-right: 4%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*.option-select-wrap > p {
+  float: left;
+}
+
+.option-select-in {
+  float: right;
+}*/
+
+
+/*.calendar-detail-option .option-input{
+  display: none;
+}
+
+.calendar-detail-option .option-parts{
+  position:relative;
+  padding-left: 30px;
+  line-height: 1.2;
+}
+
+.calendar-detail-option .option-parts::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.calendar-detail-option .option-input:checked + .option-parts{
+  color: #009a9a;
+}
+
+.calendar-detail-option .option-input:checked + .option-parts::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 10px;
+  height: 15px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid #009a9a;
+  border-right: 3px solid #009a9a;
+}*/
+
+.calendar-detail-price span {
+  display: inline-block;
+  width: 100px;
+  margin-right: 5px;
+  padding: 0 10px;
+  font-size: 1rem;
+  text-align: right;
+  background: #fff;
+}
+
+.calendar-detail-price p {
+  margin-top: 10px;
+}
+
+/*---map---*/
+.calendar-detail-map-area {
+  width: 94%;
+  height: 480px;
+  margin: 20px auto;
+  background: #ccc;
+  border-width: 1px 0;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.calendar-wrap {
+  display: none;
+}
+
+.calendar-pager {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.calendar-pager a {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background: #ccc;
+}
+
+.calendar-pager a:hover {
+  background: #dfdfdf;
+}
+
+.calendar-content {
+  padding: 40px;
+  background: #e4eef1;
+}
+
+.calendar-content-tab li {
+  display: inline-block;
+  width: 32%;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 2%;
+  text-align: center;
+  color: #fff;
+  background: #a7c3d5;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.calendar-content-tab li:first-child {
+  margin: 0;
+}
+
+.calendar-content-tab li:hover {
+  background: #5890b6;
+  transition: all .3s;
+}
+
+.calendar-content-tab li.non-select {
+  color: #333;
+  background: #dfdfdf;
+}
+
+.calendar-area {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.calendar-area tr.week th {
+  text-align: center;
+  background: #f5f5f5;
+  height: 40px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+
+.calendar-area tr.week th.saturday {
+  background: #c0e2db;
+}
+
+.calendar-area tr.week th.sunday {
+  background: #ea868b;
+}
+
+.calendar-area td {
+  position: relative;
+  border: 1px solid #ccc;
+  height: auto;
+  vertical-align:top;
+}
+
+.calendar-area td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.calendar-area td a::before {
+  padding-top: 80%;
+  display: block;
+  content: "";
+}
+
+.calendar-area td span.day {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.calendar-area td.ngayle span.day {
+  color: #cf000f;
+}
+
+.calendar-detail-area {
+display: none;
+}
+
+.detail-btn-area-submit ul {
+  text-align: center;
+}
+
+.detail-btn-area-submit ul li {
+  position: relative;
+  width: 320px;
+  margin: 0 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.detail-btn-area-submit ul li input {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+.detail-btn-area-submit ul li p {
+  vertical-align: middle;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background: #5990b6;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.detail-btn-area-submit ul li:hover p {
+  background: #354d67;
+  transition: all .3s;
+}
+
+.detail-btn-area-submit ul li a {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background: #6b7887;
+  border-radius: 5px;
+  transition: all .3s;
+  display: block;
+}
+
+.detail-btn-area-submit ul li a:hover {
+  background: #354d67;
+}
+
+.calendar-check-btn a {
+  width: 80%;
+  margin: 60px auto;
+  transition: all .3s;
+}
+
+.calendar-check-btn a:hover {
+  background: #5990b6;
+  transition: all .3s;
+}
+
+.tour-cancel-caut {
+  width: 50%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.tour-cancel-caut th {
+  width: 80%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #ccc;
+}
+
+.tour-cancel-caut td {
+  width: 20%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.modal-main {
+  display: none;
+  width: 500px;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #666666;
+  position:fixed;
+  z-index: 2;
+  text-align: center;
+}
+
+.modal-main p {
+  margin-bottom: 40px;
+}
+
+.modal-main ul li {
+  text-align: center;
+}
+
+.modal-main ul li a {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background: #5990b6;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  transition: all .3s;
+}
+
+.modal-main ul li a:hover {
+  background: #354d67;
+}
+
+.modal-main ul li:first-child a {
+  margin: 0;
+}
+
+.modal-main ul li:last-child a {
+  background: #6b7887;
+}
+
+.modal-main ul li:last-child a:hover {
+  background: #354d67;
+  transition: all .3s;
+}
+
+.modal-bg {
+  display:none;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,.5);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+
+.pickup-taxi-txt-img.left {
+  float: left;
+  width: 310px;
+}
+
+.pickup-taxi-txt-img img {
+  width: 100%;
+}
+
+.pickup-taxi-txt.right {
+  float: left;
+  margin-left: 2%;
+  width: calc( 98% - 310px )
+}
+
+.pickup-taxi-course span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.pickup-taxi-txt-caut {
+  margin-top: 40px;
+}
+
+.calendar-detail-btn-area {
+  margin-top: 40px;
+}
+
+@media screen and (max-width:1360px) {
+  
+  .slick-initialized .slick-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .slick-initialized .slick-slide img {
+    width: 100%;
+  }
+  
+  .summary-image-area {
+    width: 49%;
+  }
+
+  .summary-txt-area {
+    width: 49%;
+    margin-left: 2%;
+  }
+  
+  .summary-slider-thumb {
+    margin: 1% 0 0 -1%;
+  }
+  
+  .summary-slider-thumb li {
+    width: 24% !important;
+    margin-left: 1%;
+  }
+  
+  .point-txt-area {
+    margin-left: 2%;
+    width: calc( 98% - 310px );
+  }
+  
+  .calendar-search-area {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .calendar-search-box {
+    display: block;
+    padding: 0;
+    width: 50%
+  }
+  
+  .calendar-search-box:first-child {
+    padding-bottom: 40px;
+  }
+  
+  .calendar-search-box:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto calc(100% - 45%);
+    height: 50px;
+    width: calc(90% - 50%);
+  }
+  
+  .calendar-detail-time span {
+    display: block;
+    margin: 0;
+  }
+  
+  .calendar-detail-time select {
+    width: 100%;
+    margin: 0;
+  }  
+}
+
+
+
+
+/*-----plan confirm-----*/
+
+.plan-confirm-page-ttl {
+  margin: 80px 0 40px;
+  font-size: 32px;
+  color: #5990b6;
+}
+
+.plan-confirm-ttl {
+  padding: 2px 0 2px 10px;
+  background: #6b7887;
+  color: #fff;
+}
+
+.plan-confirm-summary .plan-num {
+  margin: 20px 0;
+}
+
+.plan-confirm-summary .plan-ttl {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.plan-confirm-summary .table-type01 {
+  margin-bottom: 40px;
+}
+.plan-confirm-summary .plan-confirm-map {
+  height: 320px;
+  margin-bottom: 40px;
+  background: #ccc;
+}
+
+.plan-confirm-summary {
+  padding-bottom: 40px;
+}
+
+.plan-confirm-info {
+  padding-bottom: 40px;
+}
+
+.plan-confirm-info-ttl {
+  margin: 40px 0 20px;
+  font-size: 24px;
+}
+
+
+
+
+
+.plan-confirm-check-in {
+  padding: 40px 20px;
+  background: #e4eef1;
+}
+
+.plan-confirm-check-area p {
+  margin-bottom: 20px;
+}
+
+.plan-confirm-check-area li {
+  margin-bottom: 20px;
+}
+
+.plan-confirm-check-area .plan-confirm-check-input{
+  display: none;
+}
+
+.plan-confirm-check-area .check-parts {
+  position:relative;
+  padding-left: 30px;
+  line-height: 1.2;
+}
+
+.plan-confirm-check-area .check-parts::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+.plan-confirm-check-area .plan-confirm-check-input:checked + .check-parts{
+  color: #009a9a;
+}
+
+.plan-confirm-check-area .plan-confirm-check-input:checked + .check-parts::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 10px;
+  height: 15px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid #009a9a;
+  border-right: 3px solid #009a9a;
+}
+
+
+.plan-confirm-reservation-btn a {
+  display: block;
+  width: 100%;
+  margin: 40px 0;
+  padding: 15px 0;
+  border-radius: 5px;
+  background: #5990b6;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+/*dl-type01*/
+.dl-type01-box {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.dl-type01 {
+  display: table-cell;
+}
+
+.dl-type01 dt {
+  width: 100%;
+  padding: 5px 10px;
+  background: #dfdfdf;
+  border: solid 1px #ccc;
+  text-align: center;
+}
+
+.dl-type01 dd {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #ccc;
+  text-align: center;
+}
+
+
+
+
+/*-----contact-index-----*/
+.contact-tel-box {
+  background: #f5f5f5;
+  margin: 60px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-tel-box .tel {
+  font-size: 1.5rem;
+}
+
+
+.contact-index-table {
+  width: 100%;
+  border-top: solid 1px #ccc;
+}
+
+.contact-index-table tr {
+  border-bottom: solid 1px #ccc;
+}
+
+.contact-index-table th {
+  width: 70%;
+  padding: 20px 0;
+}
+
+.contact-index-table td {
+  width: 27%;
+  padding: 20px 0 20px 3%;
+}
+
+.contact-index-table .link-btn a {
+   width: 100%;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background: #6c7a89;
+  transition: all .3s;
+}
+
+
+
+.contact-index-table .link-btn a:hover {
+  background: #5990b6;
+  transition: all .3s;
+}
+
+
+
+
+
+
+
+
+/*contact-form-in-dl-in*/
+
+.contact-form-in .contact-form-in-dl{
+  float: left;
+  width: 50%;
+  border: none;
+}
+
+.contact-form-in .contact-form-in-dl:last-child{
+  border: none;
+}
+
+
+.contact-form-in .contact-form-in-dl dt{
+  padding: 12px 0;
+  background: none;
+}
+
+.contact-form-in .contact-form-in-dl dd{
+  width: 15%;
+  padding: 12px 0;
+  background: none;
+}
+
+
+.contact-form-in-dl dd select{
+  float: left;
+  margin-right: 10px;
+}
+
+.contact-form-in-dl dd span{
+  float: left;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*reserve-pay-table*/
+.reserve-form-pay table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.reserve-form-pay table th {
+  width: 20%;
+  padding: 12px 20px;
+  border: solid 1px #ccc;
+  background: #e4edf0;
+}
+
+.reserve-form-pay table td {
+  padding: 12px 20px;
+  border: solid 1px #ccc;
+}
+
+.reserve-form-pay table .cell-01 {
+  width: 20%;
+}
+
+.reserve-form-pay table .cell-02 {
+  width: 45%;
+}
+
+.reserve-form-pay table .cell-03 {
+  width: 15%;
+}
+
+.reserve-form-pay table .cell-04 {
+  width: 5%;
+}
+
+.reserve-form-pay table .cell-05 {
+  width: 15%;
+}
+
+.reserve-form-pay table .price {
+  text-align: right;
+}
+
+
+/*reserve-done*/
+.reserve-done-content {
+  margin-bottom: 40px;
+}
+
+.done-ttl {
+  font-size: 1.5rem;
+}
+
+.reserve-done-content table {
+  width: 100%;
+}
+
+.reserve-done-content table th {
+  width: 10%;
+}
+
+.reserve-done-content .reserve-date-num {
+  font-size: 1.2rem;
+}
+
+.reserve-done-content .reserve-date-num td .attention {
+  font-size: .9rem;
+}
+
+
+
+/*reserve-done*/
+.input-birthday select {
+  float: left;
+  width: 10% !important;
+}
+
+.input-birthday span{
+  float: left;
+  margin: 0 20px 0 10px;
+}

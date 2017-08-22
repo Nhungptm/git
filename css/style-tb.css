@@ -1,0 +1,146 @@
+@charset "utf-8";
+/*---------------------*/
+/***** screen 960 *****/
+/*-------------------*/
+
+/***** common *****/
+.main-content {
+  padding-top: 176px
+}
+
+
+/***** header *****/
+.header-logo {
+  float: none;
+  text-align: center;
+}
+
+header nav {
+  float: none;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+header .inner {
+  width: 100%;
+  padding: 0;
+}
+
+.header-logo {
+  padding: 20px 0 20px 10px;
+}
+
+
+header nav li a {
+    padding: 0;
+}
+
+header nav li a span {
+    padding: 10px 0;
+}
+
+
+/***** search-area *****/
+.common-search-area-in {
+  margin-bottom: 40px;
+}
+
+.common-search-area-in.left,
+.common-search-area-in.right {
+  float: none;
+  width: 100%;
+}
+
+.common-search-picup {
+    display: none;
+}
+
+/***** home *****/
+.home-sns {
+  width: 100%;
+}
+
+
+/****** footer ******/
+
+.footer-navi,
+.footer-contact-area {
+  float: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  width: 310px;
+  margin: 0 auto 20px;
+  font-size: 1.5rem;
+}
+
+.footer-sns {
+  width: 106px;
+  margin: 0 auto 20px;
+}
+
+.footer-navi ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-navi ul li {
+  float: none;
+}
+
+.footer-navi ul li a {
+  font-size: 1.8vw;
+}
+
+/***** home *****/
+.lang-area dl {
+  top: 190px;
+}
+
+/***** plan-list(archive) *****/
+.plan-not-area {
+  padding: 40px 10px;
+}
+
+.plan-not-area p {
+  font-size: 1.5rem;
+}
+
+.plan-not-area a {
+  width: 90%;
+}
+
+
+.archive-plan-content .plan-list article a {
+  padding: 0 0 30px;
+}
+
+.archive-plan-content .plan-list-caut dt {
+  width: 40%;
+}
+
+.archive-plan-content .plan-list article a {
+  padding: 15px 0;
+}
+
+/***** contact-form *****/
+  .contact-form dl dd .contact-form dl dt span {
+    float: none;
+    display: block;
+  }
+
+  .contact-form dl dd .contact-form dl dd {
+    vertical-align: middle;
+ }
+
+  .contact-form dl dd .contact-form-date label {
+    float: none;
+  }
+
+   .contact-form dl dd .contact-form-date {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }

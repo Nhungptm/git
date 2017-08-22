@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*----detail---*/
+
+.calendar-search-box {
+  width: 100%;
+  border: 0;
+}
+
+.calendar-search-box:last-child {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 50px 0 0 0;
+  height: 50px;
+  width: 100%;
+}
+
+.calendar-content {
+  padding: 2%;
+}
+
+.calendar-content-tab li {
+  height: 40px;
+  line-height: 40px;
+}
+
+.calendar-detail-box:last-child {
+  border-top: solid 1px #fff;
+}
+
+.calendar-detail-price {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 40px 0 0 0 ;
+  padding-top: 40px;
+  height: auto;
+  width: 100%;
+}
+
+.calendar-detail-box {
+  border: none;
+  width: 100%;
+}
+
+.detail-btn-area-submit ul li {
+  width: 90%;
+}
+
+.detail-btn-area-submit ul li:first-child {
+  margin-bottom: 20px;
+}
+
+.detail-btn-area-submit ul li a,
+.detail-btn-area-submit ul li p {
+    font-size: 1rem;
+}
+
+.pickup-taxi-txt-img.left{
+  width: 100%;
+}
+
+
+
+
+/*dl-type01*/
+.dl-type01-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.dl-type01 {
+  display: block;
+}
+
+
+
+
+
+
+
+

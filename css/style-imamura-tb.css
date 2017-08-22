@@ -1,0 +1,109 @@
+@charset "utf-8";
+/***** pickup-taxi *****/
+
+.pickup-taxi-plan-ttl {
+  line-height: 1.5;
+}
+
+.summary-image-area {
+  float: none;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.summary-txt-area {
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+.point-ttl-area {
+  float: none;
+  margin: 0 auto 40px;
+}
+
+.point-txt-area {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+.tour-cancel-caut {
+  width: 100%;
+}
+
+.calendar-detail-area {
+  padding: 20px;
+}
+
+.calendar-detail-box {
+    display: block;
+    padding: 0 3% 0 0;
+    width: 50%;
+}
+
+.calendar-detail-wrap-in {
+  position: relative;
+}
+
+.calendar-detail-box:first-child {
+  padding-bottom: 40px;
+}
+
+.calendar-detail-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto calc(100% - 45%);
+  height: 130px;
+  width: calc(95% - 50%);
+  border: none;
+  padding: 0;
+}
+
+.detail-btn-area-submit ul li {
+  width: 48%;
+  margin: 0 1%;
+  text-align: center;
+  display: inline-block;
+}
+
+.detail-btn-area-submit ul li a,
+.detail-btn-area-submit ul li p {
+  font-size: 2vw;
+}
+
+.calendar-search-box-date dl ol li {
+  width: 30%;
+}
+
+.calendar-search-box-date dl ol li:first-child {
+  width: 40%;
+}
+
+.calendar-search-box-date dl ol li select {
+  width: 60%;
+}
+
+.calendar-search-box-date dl ol li:first-child select {
+  width: 70%;
+}
+
+.point-ttl-area img {
+  width: 50%;
+}
+
+.pickup-taxi-txt-img.left {
+  float: none;
+  margin-bottom: 40px;
+}
+
+.pickup-taxi-txt.right {
+  float: none;
+  margin: 0;
+  width: 100%;
+}
+
+

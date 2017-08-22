@@ -1,0 +1,446 @@
+@charset "utf-8";
+/*---------------------*/
+/***** screen 600 *****/
+/*-------------------*/
+
+/***** common ******/
+
+html, body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.main-content {
+  padding-top: 111px;
+}
+
+/***** header *****/
+
+.header-top {
+  width: 100%;
+  padding: 10px;
+}
+
+.header-logo {
+  float: left;
+  width: 220px;
+  padding: 0;
+  text-align: left;
+}
+
+header nav li a {
+  font-size: 2vw;
+}
+
+header nav li a span {
+  padding: 5% 0;
+  line-height: 1;
+}
+
+header nav li a span::before {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.sp-search-btn {
+  float: right;
+  width: 40px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.common-search-area {
+  position: fixed;
+  top: 60px;
+  right: -600px;
+  width: 100%;
+  padding: 10px 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border-bottom: 1px solid #1B2C74;
+  height: auto;
+  margin: 0;
+  z-index: 99998;
+}
+
+.common-search-area.draw {
+  -moz-transform: translateX(-600px);
+    -webkit-transform: translateX(-600px);
+    transform: translateX(-600px);
+}
+
+.sp-search-btn img {
+  opacity: 1;
+  transition: all .5s;
+}
+
+.sp-search-btn.open img {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.sp-search-btn .search-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  opacity: 1;
+  transition: all .5s;
+}
+
+.sp-search-btn .search-toggle span {
+  position: absolute;
+  border-radius: 10px;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+  opacity: 0;
+}
+
+.sp-search-btn .search-toggle span:nth-child(1) {
+    top: 12px;
+}
+.sp-search-btn .search-toggle span:nth-child(2) {
+    top: 25px;
+}
+
+.sp-search-btn.open .search-toggle span {
+  opacity: 1;
+}
+
+.sp-search-btn.open span:nth-child(1) {
+  top: 20px;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.sp-search-btn.open span:nth-child(2) {
+  top: 20px;
+  -webkit-transform: rotate(-315deg);
+  -moz-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+.common-search-selecttours .search-airport dd {
+  width: 100%;
+}
+
+.common-search-selecttours-in.left,
+.common-search-selecttours-in.right {
+    float: none;
+    width: 100%;
+}
+
+/***** detail *****/
+
+.detail-in-nav ul {
+  margin-left: -1%;
+}
+
+.detail-in-nav ul li {
+  width: 49%;
+  margin: 0 0 1% 1%;
+  border: 1px solid #ccc;
+  display: table;
+}
+
+.detail-in-nav ul li a {
+  padding: 10px 0;
+  text-align: center;
+  line-height: 1.2;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.detail-in-nav ul li:first-child {
+  margin-left: 1%;
+}
+
+.detail-in-nav ul li::before {
+  display: none;
+  content: "";
+}
+
+/***** footer *****/
+.footer-navi ul {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.footer-navi ul li {
+  border: none;
+}
+
+.footer-navi ul li a {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-navi ul li:first-child a {
+  margin: 0;
+  padding: 0 10px;
+}
+
+/***** home *****/
+
+.home-h2-ttl {
+  font-size: 2.2rem;
+}
+
+.lang-area dl {
+  top: 130px;
+}
+
+.home-flow-list {
+    margin: 0;
+}
+
+.home-flow-list li {
+  width: 100%;
+  margin: 0 0 80px 0;
+  display: block;
+}
+
+.home-flow-list li:first-child {
+  margin: 0 0 80px 0;
+}
+
+.flow-nav ul li {
+  float: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flow-nav ul li:first-child {
+  margin: 0 auto 20px;
+}
+
+.home-service-list li {
+  width: 90%;
+}
+
+.plan-list article {
+  float: none;
+  width: 100%;
+}
+
+.plan-list-in.pc-none {
+  display: block;
+}
+
+.plan-list-in.sp-none {
+  display: none;
+}
+
+.plan-num.pc-none {
+  display: block;
+}
+
+.plan-num.sp-none {
+  display: none;
+}
+
+.plan-num {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  color: #333;
+}
+
+.plan-list-ttl {
+  border: none;
+  line-height: 1.2;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.plan-list-in.right {
+  float: none;
+  width: 100%;
+}
+
+.plan-list-in.right p {
+  display: none;
+}
+
+.plan-list-flag {
+  margin-top: 10px;
+}
+
+.plan-list-flag li {
+  font-size: 1.25rem;
+}
+
+.plan-list-flag li:nth-child(1),
+.plan-list-flag li:nth-child(2) {
+  display: none;
+}
+
+.plan-more-btn {
+  width: 90%;
+}
+
+.home-bnr-content ul li {
+  width: 90%;
+}
+
+.lang-area dt {
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.lang-area dd {
+    width: 140px;
+    height: 30px;
+    display: none;
+}
+
+.lang-area a {
+  line-height: 30px;
+}
+
+
+/***** plan-list(archive) *****/
+
+.archive-plan-display {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.archive-plan-content .plan-list article {
+  margin: 0 0 40px 0;
+  padding-bottom: 40px;
+}
+
+
+.archive-plan-content .plan-list-flag {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.archive-plan-content .plan-list-caut {
+  display: none;
+}
+
+.archive-plan-content .plan-num {
+  margin-bottom: 10px;
+}
+
+.archive-plan-content .plan-list-flag {
+  margin-top:  0;
+}
+
+/* pager */
+
+.page-numbers {
+  margin: 0 0 5px 5px;
+}
+
+/***** vehicle *****/
+.vehicle-nav ul {
+  float: right;
+  width: 49.5%;
+}
+
+.vehicle-nav ul:first-child {
+  float: left;
+}
+
+.vehicle-nav ul li {
+  width: 100%;
+  margin: 0 0 2% 0 !important;
+}
+
+/***** FAQ *****/
+
+.faq-content dl dt::before {
+  left: 10px;
+}
+
+.faq-content dl dt {
+  padding: 10px 10px 10px 40px;
+}
+
+.faq-content dl dd {
+  padding: 20px 0 0 40px;
+}
+
+/***** contact-form *****/
+.contact-form-in dl {
+  display: block;
+}
+
+.contact-form dl dt {
+  width: 100%;
+  padding: 5px 20px;
+  display: block;
+}
+
+.contact-form dl dt span {
+  float: right;
+}
+
+.contact-form dl dd {
+  width: 100%;
+  display: block;
+}
+
+.contact-form-back {
+  float: none;
+  width: 100%;
+}
+
+.contact-form-back,
+.contact-form-confir-submit {
+  float: none;
+  width: 100%;
+}
+
+.contact-form-done-back a {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.step-bar {
+  list-style: none;
+}
+
+.step-bar li {
+  min-width: auto;
+  width: 33%;
+  font-size: 3.2vw;
+}
+
+.step-bar li:last-child {
+  padding-right: 0;
+}
+
+/******** table-type01 ********/
+.table-type01.left-th th {
+  display: block;
+  width: 100%;
+}
+
+.table-type01.left-th td {
+  text-align: center;
+  padding: 5px 20px;
+  display: block;
+  width: 100%;
+}
